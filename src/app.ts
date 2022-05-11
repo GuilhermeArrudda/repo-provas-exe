@@ -6,7 +6,6 @@ import { errorHandlerMiddleware } from "./middlewares/errorHandlerMiddleware.js"
 import router from "./routers/index.js";
 
 const app = express();
-//testando
 app.use(json());
 app.use(cors());
 app.use(router);
