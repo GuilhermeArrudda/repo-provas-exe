@@ -5,7 +5,7 @@ on:
       - main
 jobs:
   Deploy-Heroku:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Check out do código
         uses: actions/checkout@v3
