@@ -2,7 +2,7 @@ name: Pull Request
 on: [pull_request]
 jobs:
   Pull-Request:
-    runs-on: ubuntu-latest
+    run-on: ubuntu-latest
     steps:
       - name: Check out do código
         uses: actions/checkout@v3
